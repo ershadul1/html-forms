@@ -58,6 +58,14 @@ p {
   border: 1px solid blue;
 }
 
+.logo img {
+  width: 300px;
+}
+
+.email-label {
+  display: block;
+}
+
 .footer {
   height: 150px;
   border: 1px solid red;
