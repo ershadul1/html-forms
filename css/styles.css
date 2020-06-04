@@ -35,7 +35,7 @@ p {
 .signIn-content a,
 .form-header a,
 .conditions a,
-.form-container-footer a, 
+.form-container-footer a,
 .footer a {
   text-decoration: none;
   color: #2777c5;
@@ -58,15 +58,12 @@ p {
 
 .main {
   height: calc(100vh - 160px);
-  border: 1px solid blue;
 }
 
 .container {
   width: 400px;
- /* height: 100%;*/
   margin: 0 auto;
   text-align: center;
-  /*margin-top: 10px;*/
 }
 
 .form-container {
@@ -77,10 +74,11 @@ p {
 
 .logo {
   margin-bottom: 15px;
+  max-width: 100%;
 }
 
 .logo img {
-  width: 400px;
+  width: 100%;
 }
 
 .form-header {
@@ -155,13 +153,17 @@ p {
 
 .createAcc-btn {
   width: 100%;
-  padding: 10px 20px;
+  padding: 12px 20px;
   background-color: #2777c5;
   border-radius: 4px;
   border: none;
   font-size: 16px;
   color: white;
   margin-bottom: 30px;
+}
+
+.createAcc-btn i {
+  margin-right: 5px;
 }
 
 .conditions {
@@ -191,17 +193,20 @@ p {
 
 .footer {
   height: 100px;
-  border: 1px solid red;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
-.footer a, p {
+.footer-links,
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer a,
+.footer p {
   font-size: 12px;
-  
 }
 
 .footer p {
