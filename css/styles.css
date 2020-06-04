@@ -32,11 +32,13 @@ p {
   font-size: 12px;
 }
 
-.signIn-content a {
+.signIn-content a,
+.form-header a,
+.conditions a,
+.form-container-footer a {
   text-decoration: none;
   color: #2777c5;
   font-weight: 300;
-  line-height: 1rem;
 }
 
 .signIn-content p {
@@ -58,12 +60,88 @@ p {
   border: 1px solid blue;
 }
 
-.logo img {
-  width: 300px;
+.container {
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.email-label {
+.form-container {
+  background-color: #fff;
+  border: 0.5px solid lightgray;
+  border-radius: 3px;
+}
+
+.logo {
+  margin-bottom: 15px;
+}
+
+.logo img {
+  width: 400px;
+}
+
+.form-header {
+  text-align: center;
+  padding: 30px;
+}
+
+.form-heading {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(88, 88, 88);
+  letter-spacing: 0.1rem;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: rgb(68, 67, 67);
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.form-header a {
+  font-size: 12px;
+}
+
+.email-label,
+.phone-label,
+.password-label {
   display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgb(88, 88, 88);
+  font-weight: lighter;
+}
+
+.signUp-form {
+  text-align: left;
+  padding: 0 30px;
+}
+
+.signUp-form input {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 0.5px solid lightgray;
+}
+
+.signUp-form input:focus {
+  outline: none;
+}
+
+.signUp-form .phone {
+  margin-bottom: 5px;
+}
+
+.signUp-form .phone-tip {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: rgb(68, 67, 67);
+  font-weight: lighter;
 }
 
 .password-icon {
@@ -82,10 +160,35 @@ p {
   border: none;
   font-size: 16px;
   color: white;
+  margin-bottom: 30px;
+}
+
+.conditions {
+  padding: 10px 30px;
+  text-align: center;
+  line-height: 1.3rem;
+  font-style: italic;
+  color: rgb(134, 134, 134);
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+
+.form-container-footer {
+  background-color: #eceef1;
+  padding: 0 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container-footer p {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: rgb(134, 134, 134);
 }
 
 .footer {
   height: 150px;
   border: 1px solid red;
 }
-
