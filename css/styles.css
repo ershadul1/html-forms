@@ -8,3 +8,47 @@
 body {
   background-color: #eceef1;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 30px;
+  height: 60px;
+}
+
+.nav-right-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signIn-content {
+  margin-right: 15px;
+}
+
+.signIn-content a,
+p {
+  font-size: 12px;
+}
+
+.signIn-content a {
+  text-decoration: none;
+  color: #2777c5;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.signIn-content p {
+  color: rgb(138, 138, 138);
+}
+
+.signIn-btn {
+  padding: 10px 20px;
+  background-color: #2777c5;
+  width: 110px;
+  font-size: 14px;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
