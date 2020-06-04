@@ -74,6 +74,16 @@ p {
   color: #c7c7cd;
 }
 
+.createAcc-btn {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #2777c5;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+
 .footer {
   height: 150px;
   border: 1px solid red;
