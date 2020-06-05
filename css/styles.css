@@ -44,6 +44,7 @@ p {
 
 .signIn-content p {
   color: rgb(138, 138, 138);
+  text-align: right;
 }
 
 .signIn-btn {
@@ -56,12 +57,17 @@ p {
   border: none;
 }
 
+.signIn-btn i {
+  margin-right: 5px;
+}
+
 .main {
-  height: calc(100vh - 160px);
+  height: 100%;
+  margin-bottom: 30px;
 }
 
 .container {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
   text-align: center;
 }
@@ -211,4 +217,8 @@ p {
 
 .footer p {
   color: rgb(68, 67, 67);
+}
+
+.footer-description {
+  text-align: center;
 }
