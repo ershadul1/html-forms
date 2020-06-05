@@ -215,10 +215,16 @@ p {
   font-size: 12px;
 }
 
-.footer p {
+.footer a {
+  margin-right: 10px;
   color: rgb(68, 67, 67);
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 .footer-description {
   text-align: center;
+  color: rgb(68, 67, 67);
 }
