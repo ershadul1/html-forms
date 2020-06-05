@@ -87,6 +87,29 @@ p {
   width: 100%;
 }
 
+.logo-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-links a {
+  text-decoration: none;
+}
+
+.logo-links-items {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(121, 121, 121);
+}
+
+.logo-links img {
+  width: 30px;
+  margin-right: 10px;
+}
+
 .form-header {
   text-align: center;
   padding: 30px;

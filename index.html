@@ -32,6 +32,29 @@
       <div class="container">
         <div class="logo">
           <img src="assets/images/newintuit.png" alt="logo" />
+          <div class="logo-links">
+            <a href="https://www.mint.com/" target="blank"
+              ><div class="logo-links-items">
+                <img src="./assets/images/mint-logo.png" alt="mint" />
+                mint
+              </div></a
+            >
+            <a href="https://quickbooks.intuit.com/" target="blank">
+              <div class="logo-links-items">
+                <img
+                  src="./assets/images/quickBooks-logo.png"
+                  alt="quickBooks"
+                />
+                quickbooks
+              </div>
+            </a>
+            <a href="https://turbotax.intuit.com/" target="blank">
+              <div class="logo-links-items">
+                <img src="./assets/images/turbotax-logo.svg" alt="turbotax" />
+                turbotax
+              </div>
+            </a>
+          </div>
         </div>
         <div class="form-container">
           <div class="form-header">
@@ -49,17 +72,20 @@
             <form>
               <label class="email-label" for="email">Email address</label>
               <input type="email" name="email" id="email" />
+
               <label class="phone-label" for="phone">Phone (recommended)</label>
-              <input type="text" name="phone" id="phone" class="phone" />
+              <input type="tel" name="phone" id="phone" class="phone" />
               <p class="phone-tip">
                 Standard call, messaging or data rates may apply.
               </p>
+
               <label class="password-label" for="password">Password</label>
               <input type="password" name="password" id="password" /><span
                 class="password-icon"
                 ><i class="fas fa-lock-open"></i
               ></span>
-              <button class="createAcc-btn">
+
+              <button class="createAcc-btn" type="submit">
                 <span><i class="fas fa-lock"></i></span> Create Account
               </button>
             </form>
