@@ -1,6 +1,6 @@
 # html-forms
 
-> HTML Forms
+> This is a clone of mint.com sign-up page. In this project we implemented html forms functionality. 
 
 ![screenshot](./assets/images/website.png)
 
