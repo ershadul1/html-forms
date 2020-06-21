@@ -15,7 +15,7 @@
 ## Getting Started
 
 ​
-**To get a local copy up and running follow these simple example steps.**
+**Visit live demo**
 ​
 ​
 
@@ -32,12 +32,17 @@ A browser of preference.
 ​
 
 - Github: [@githubhandle](https://github.com/Amita-Roy)
+- Linkedin: [Amita Roy](https://www.linkedin.com/in/amita-roy-3b823b68/)
+- Email: sardana.amita2@gmail.com
 
 👤 **Ershadul Hakim Rayhan**
 ​
 
 - Github: [@githubhandle](https://github.com/ershadul1)
-  ​
+- Twitter: [@ErshadulRayhan](https://twitter.com/ErshadulRayhan)
+- Linkedin: [ErshadulRayhan](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/)
+- Email: ershadul.rayhan@gmail.com
+
 
 ## �� Contributing
 
